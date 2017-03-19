@@ -1,6 +1,6 @@
-VModal - Idiorm/Paris Extension
+VModel - Idiorm/Paris Extension
 =====
-https://github.com/rafayhingoro/vmodal-idiorm-extension
+https://github.com/rafayhingoro/vmodel-idiorm-extension
 
 ---
 
