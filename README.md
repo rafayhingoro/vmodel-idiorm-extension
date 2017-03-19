@@ -45,10 +45,10 @@ $form = array(
     'price' => '12.00'
 );
 
-$user = Model::factory('Item')
+$item = Model::factory('Item')
          ->saveForm($form);
 //or
-$user = Model::factory('Item')
+$item = Model::factory('Item')
          ->validateForm($form);
  $item->shop_id = $form['shop_id'];
  $item->cat_id = $form['cat_id'];
