@@ -56,13 +56,13 @@ Documentation
     <?php 
     class ControllerUser {
          try {
-            /**
-             $form is array of inputs here's an example 
-             $form['username'] = 'user1234';
-             $form['password'] = 'mySecretPassword';
-             $form['email'] = 'myemail@123.com';
-             ... 
-            */
+         
+            // $form is array of inputs here's an example 
+            // $form['username'] = 'user1234';
+            // $form['password'] = 'mySecretPassword';
+            // $form['email'] = 'myemail@123.com';
+            // ... 
+           
              $oModel = Model::factory("YourModelName")->create();
              $oModel->validateForm($form); //throws exception if form is not valid
              ...
